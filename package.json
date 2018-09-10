@@ -1,0 +1,35 @@
+{
+  "name": "unit-test-with-travis",
+  "version": "1.0.0",
+  "description": "test for travis",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^5.0.0",
+    "jasmine": "^3.2.0",
+    "jasmine-core": "^3.2.1",
+    "karma": "^3.0.0",
+    "karma-coverage": "^1.1.2",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-junit-reporter": "^1.2.0"
+  },
+  "scripts": {
+    "test": "gulp travis-ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashjanm/unit-test-with-travis.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dashjanm/unit-test-with-travis/issues"
+  },
+  "homepage": "https://github.com/dashjanm/unit-test-with-travis#readme"
+}
